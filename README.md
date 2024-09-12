@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Movie Review Web Application
+![image](https://github.com/user-attachments/assets/7323e0c2-c31c-4b30-92bd-895ad828ba9b)
+![image](https://github.com/user-attachments/assets/2f908547-88a8-46fb-b036-8a06db29aecc)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Movie Review App is a full-stack web application that allows users to search for movies and post reviews. It is built using Java with Spring Boot for the back end, React.js for the front end, and PostgreSQL as the database. The application enables users to browse movie information, leave reviews, and interact with a clean, user-friendly interface.
 
-## Available Scripts
+### Steps
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/movie-review-app.git
+   cd movie-review-app
+   ```
+
+2. **Install all packages and dependencies by running:**
+   ```bash
+   npm install
+   ```
 
 In the project directory, you can run:
 
-### `npm start`
+### Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### `npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the React front-end development server.  
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-### `npm test`
+### Backend
+Once you've cloned the repository, navigate to the movies-backend folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   cd movie-backend
+   ```
 
-### `npm run build`
+Run the Spring Boot back-end server from your favorite Java IDE. This will start the API server on [http://localhost:8080](http://localhost:8080). Ensure your PostgreSQL database is configured correctly in the `application.properties` file.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ensure you have the following installed:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Java 8+  
+- PostgreSQL  
+- Maven  
+- Node.js and npm  
