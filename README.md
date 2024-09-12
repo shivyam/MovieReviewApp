@@ -1,4 +1,5 @@
 # Movie Review Web Application
+![image](https://github.com/user-attachments/assets/7323e0c2-c31c-4b30-92bd-895ad828ba9b)
 ![image](https://github.com/user-attachments/assets/2f908547-88a8-46fb-b036-8a06db29aecc)
 
 The Movie Review App is a full-stack web application that allows users to search for movies and post reviews. It is built using Java with Spring Boot for the back end, React.js for the front end, and PostgreSQL as the database. The application enables users to browse movie information, leave reviews, and interact with a clean, user-friendly interface.
