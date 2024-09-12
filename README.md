@@ -2,7 +2,19 @@
 
 The Movie Review App is a full-stack web application that allows users to search for movies and post reviews. It is built using Java with Spring Boot for the back end, React.js for the front end, and PostgreSQL as the database. The application enables users to browse movie information, leave reviews, and interact with a clean, user-friendly interface.
 
-## Available Scripts
+### Steps
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/movie-review-app.git
+   cd movie-review-app
+   ```
+
+2. **Install all packages and dependencies by running:**
+   ```bash
+   npm install
+   ```
 
 In the project directory, you can run:
 
@@ -32,13 +44,3 @@ Ensure you have the following installed:
 - PostgreSQL  
 - Maven  
 - Node.js and npm  
-
-### Steps
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/your-username/movie-review-app.git
-   cd movie-review-app
-
-   
