@@ -5,5 +5,5 @@ The Movie Review App is a full-stack web application that allows users to search
 
 In the project directory, you can run:
 
-### `npm start`
+run ### `npm start`
 
